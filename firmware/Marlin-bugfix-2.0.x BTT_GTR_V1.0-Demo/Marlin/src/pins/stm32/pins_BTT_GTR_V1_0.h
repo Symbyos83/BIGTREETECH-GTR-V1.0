@@ -71,18 +71,18 @@
 //
 // Steppers
 //
-      #define X_STEP_PIN         PC15 
-      #define X_DIR_PIN          PF0
-      #define X_ENABLE_PIN       PF1
+      #define X_STEP_PIN         PE3
+      #define X_DIR_PIN          PE2
+      #define X_ENABLE_PIN       PE4
       #ifndef X_CS_PIN
-        #define X_CS_PIN         PC14
+        #define X_CS_PIN         PE1
       #endif
 
-      #define Y_STEP_PIN         PE3
-      #define Y_DIR_PIN          PE2
-      #define Y_ENABLE_PIN       PE4
+      #define Y_STEP_PIN         PC15
+      #define Y_DIR_PIN          PF0
+      #define Y_ENABLE_PIN       PF1
       #ifndef Y_CS_PIN
-        #define Y_CS_PIN         PE1
+        #define Y_CS_PIN         PC14
       #endif
 
       #define Z_STEP_PIN         PB8
@@ -190,11 +190,11 @@
   //
   // Software serial
   //
-  #define X_SERIAL_TX_PIN  PC14
-  #define X_SERIAL_RX_PIN  PC14
+  #define X_SERIAL_TX_PIN  PE1
+  #define X_SERIAL_RX_PIN  PE1
 
-  #define Y_SERIAL_TX_PIN  PE1
-  #define Y_SERIAL_RX_PIN  PE1
+  #define Y_SERIAL_TX_PIN  PC14
+  #define Y_SERIAL_RX_PIN  PC14
 
   #define Z_SERIAL_TX_PIN  PB5
   #define Z_SERIAL_RX_PIN  PB5
