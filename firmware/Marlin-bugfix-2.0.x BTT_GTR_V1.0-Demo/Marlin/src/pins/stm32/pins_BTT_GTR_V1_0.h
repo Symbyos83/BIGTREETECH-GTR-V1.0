@@ -229,9 +229,9 @@
 //
 // Temperature Sensors
 //
-  #define TEMP_0_PIN         PC1  // T1 <-> E0
+  #define TEMP_0_PIN         PC3  // T1 <-> E0
   #define TEMP_1_PIN         PC2  // T2 <-> E1
-  #define TEMP_2_PIN         PC3  // T3 <-> E2
+  #define TEMP_2_PIN         PC1  // T3 <-> E2
 
   #define TEMP_3_PIN         PA3  // T4 <-> E3
   #define TEMP_4_PIN         PF9  // T5 <-> E4
